@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore the beauty of tambulig through art and photography.">
+  <title>Tambulig Art Gallery</title>
+<style>
+  * { box-sizing: border-box; }
+
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: radial-gradient(circle, rgba(10, 59, 99, 0.8) 60%, rgba(0, 0, 0, 1) 100%);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+      color: #fff;
+    }
+
+
+#gallery {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#gallery h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #2a9d8f;
+}
+
+.spot {
+    margin-bottom: 40px;
+}
+
+.spot h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.photo {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.photo img:hover {
+    transform: scale(1.05);
+}
+
+.caption {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .photo {
+        width: 100%;
+        max-width: 350px;
+    }
+}
+
+
+</style>
+</head>
+<body>
+
+  <section id="gallery">
+    <h2>Explore the Beauty of Tambulig</h2>
+
+   
+    <div class="spot">
+        <h3>Tambulig Mountain Spring Resort</h3>
+        <div class="gallery">
+            <div class="photo">
+                <img src="file:///C:/Users/User/Desktop/HTML/kyup.jpg" alt="Tambulig Mountain Spring Resort">
+                <p class="caption">"Tambulig Mountain Spring Resort, nestled in the lush green hills of Tambulig, Zamboanga del Sur, is a hidden gem that offers a refreshing escape from the hustle and bustle of everyday life."</p>
+            </div>
+            <div class="photo">
+                <img src="file:///C:/Users/User/Documents/imgs/TSR.jpg" alt="Tambulig Mountain Spring Resort">
+                <p class="caption">"Take a refreshing dip in the cool, crystal-clear waters of Tambulig Mountain Spring Resort."</p>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="spot">
+        <h3>Brgy. Tungawan</h3>
+        <div class="gallery">
+            <div class="photo">
+                <img src="file:///C:/Users/User/Desktop/HTML/tungawan.jpg" alt="Brgy. Tungawan">
+                <p class="caption">"Tungawan in Tambulig, Zamboanga del Sur, is a peaceful escape that feels like a secret heaven. Known for its stunning sunsets, this quiet spot offers the perfect backdrop to unwind as the sky transforms into a beautiful mix of colors."</p>
+            </div>
+            <div class="photo">
+                <img src=file:///C:/Users/User/Desktop/HTML/yess.jpg alt="Brgy. Tungawan">
+                <p class="caption">" It’s a quiet, stress-free spot where you can relax, take in the beauty of nature, and recharge your spirit."</p>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="spot">
+        <h3>Unibarcity</h3>
+        <div class="gallery">
+            <div class="photo">
+                <img src="file:///C:/Users/User/Desktop/HTML/claire%20claire.jpg" alt="Unibarcity">
+                <p class="caption">"Unibarcity in Tambulig, Zamboanga del Sur, is the ultimate chill spot with a laid-back "bukid" vibe. Surrounded by lush greenery and cool, open spaces, it’s the perfect place to hang out with friends, enjoy nature, and soak in the relaxed atmosphere."</p>
+            </div>
+            <div class="photo">
+                <img src="file:///C:/Users/User/Desktop/HTML/dela%20cerna.jpg" alt="Unibarcity">
+                <p class="caption">" Surrounded by nature, with lush greenery and open spaces, it’s a spot that feels like a little escape from the everyday. Whether you're lounging in the shade or just enjoying the peace and quiet, Unibarcity is all about good vibes, great company, and taking it easy."</p>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+  <p>&copy; 2024 Tambulig Municipality. All Rights Reserved.
+    <a href="index.html">HOME</a></p></p>
+</footer>
+</body>
+</html>
